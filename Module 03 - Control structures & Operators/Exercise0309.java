@@ -14,6 +14,8 @@ imprime na tela o resultado (condição da pessoa), usando essas regras e
 aplicando todos os conteúdos que você aprendeu até agora neste módulo.
 */
 
+// Corrigindo as convenções de código.
+
 import java.util.Scanner;
 
 public class Exercise0309 {
@@ -23,6 +25,7 @@ public class Exercise0309 {
 
     System.out.print("Digite 1 para 'Mulher' ou 2 para 'Homem': ");
     char sexo = sc.next().charAt(0);
+
     System.out.print("Peso: ");
     int peso = sc.nextInt();
 
@@ -33,7 +36,7 @@ public class Exercise0309 {
 
     // Lê-se: Se for homem e o imc dele for tanto, execute isso. Ou se for mulher e o imc dela for tanto, execute isso
 
-      if ((sexo == '1' && imc < 19.1) || (sexo == '2' && imc < 20.7)) {
+    if ((sexo == '1' && imc < 19.1) || (sexo == '2' && imc < 20.7)) {
       System.out.println("Abaixo do peso ideal.");
     } else if ((sexo == '1' && imc <= 25.8) || (sexo == '2' && imc <= 26.4)) {
       System.out.println("Peso ideal.");
@@ -45,7 +48,6 @@ public class Exercise0309 {
       System.out.println("Obeso");
     }
 
-    System.out.println("Fim do programa.");
   }
 
 }
