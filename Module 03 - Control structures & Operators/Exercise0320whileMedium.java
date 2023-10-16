@@ -1,8 +1,7 @@
 /*
-Escreva um programa que solicita números inteiros ao usuário de forma contínua e soma
-todos os números informados.
-O programa deve parar de solicitar mais números e imprimir a soma deles na saída apenas
-quando o valor total somado for igual ou superior a 100.
+Escreva um programa que solicita um número inteiro para o usuário e imprime na saída o
+número com os dígitos invertidos.
+Por exemplo, se o número digitador for 98765, a saída deve ser 56789
 */
 
 import java.util.Scanner;
